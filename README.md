@@ -27,44 +27,6 @@ I gathered the required data for this project from three different resources:
 I assessed the gathered data both visually and programmatically.
 	1.	Visual Assessment:
 	To get sense of the gathered data, done by using head(), tail(), and sample() functions.
-	Here, you will find a description for columns in each Dataframe
-	df_twitter_arch columns:
-	•	tweet_id: unique identifier for each tweet.
-	•	in_reply_to_status_id: if the tweet is a reply, it will contain the original tweet’s id.
-	•	in_reply_to_user_id: if the tweet is a reply, it will contain the original tweet’s user id.
-	•	timestamp: time when this tweet was created.
-	•	source: utility used to post the tweet: Android app, iPhone app, or Web Client.
-	•	text: actual UTF-8 text of the status update.
-	•	retweeted_status_id: if the tweet is a retweet, it will contain the original tweet’s id.
-	•	retweeted_status_user_id: if the tweet is a retweet, it will contain the original tweet’s user id.
-	•	retweeted_status_timestamp: time of retweet.
-	•	expanded_urls: tweet url.
-	•	rating_numerator: numerator of the rating of a dog (ratings should have a numerator greater than 10).
-	•	rating_denominator: denominator of the rating of a dog (ratings should have a denominator of 10).
-	•	name: dog's name.
-	•	doggo: one of the dog stages.
-	•	floofer: one of the dog stages.
-	•	pupper: one of the dog stages.
-	•	puppo: one of the dog stages.
-	df_image_pred columns:
-	•	tweet_id: the unique identifier for each tweet
-	•	jpg_url: dog's image URL
-	•	img_num: the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images)
-	•	p1: algorithm's #1 prediction for the image in the tweet
-	•	p1_conf: how confident the algorithm is in its #1 prediction
-	•	p1_dog: whether or not the #1 prediction is a breed of dog
-	•	p2: algorithm's #2 prediction for the image in the tweet
-	•	p2_conf: how confident the algorithm is in its #2 prediction
-	•	p2_dog: whether or not the #2 prediction is a breed of dog
-	•	p3: algorithm's #3 prediction for the image in the tweet
-	•	p3_conf: how confident the algorithm is in its #3 prediction
-	•	p3_dog: whether or not the #3 prediction is a breed of dog
-
-	df_extra_data columns:
-	•	tweet_id: the unique identifier for each tweet
-	•	retweet_count: number of how many times this tweet has been retweeted
-	•	favorite_count: number of how many times this tweet has been liked
-	•	create_date: time when this tweet has been created
 	2.	Programmatically Assessment:
 	Done by using info(), value_counts(), max() functions.
 	After assessing data I found some problems stated in the following assessing report:
